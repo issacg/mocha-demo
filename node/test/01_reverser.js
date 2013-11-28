@@ -5,7 +5,7 @@ var testmodule = '../lib/reverser.js',
     app = express();
 
 describe('Reverser', function() {
-    app = require(testmodule);
+    require(testmodule)(app);
     describe('GET /reverse', function() {
         it('should reverse the string', function(done) {
             request(app).
