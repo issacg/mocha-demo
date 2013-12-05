@@ -1,0 +1,3 @@
+[submodule "bamboo"]
+	path = bamboo
+	url = https://github.com/issacg/bamboo-nodejs-mocha-vagrant.git
